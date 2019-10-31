@@ -1,0 +1,48 @@
+.{
+	margin:0;
+	padding:0;
+}
+
+html, body{
+	height: 100%;
+	margin:0;
+	padding:0;
+	font-family: 'Inconsolata', monospace;
+
+}
+
+#container-1{
+	text-align: center;
+	height: 100%;
+	background-color: #111111;
+}
+
+#container-2{
+	text-align: center;
+	height: 100%;
+	background-color: red;
+}
+
+#container-3{
+	text-align: center;
+	height: 100%;
+	background-color: green;
+}
+
+.pin{
+	width: 40px;
+	background: none;
+	margin: 5px;
+	border: none;
+	border-bottom: 1px solid white;
+	text-align: center;
+	color: white;
+	font-family: 'Inconsolata', monospace;
+	font-size: 30px;
+}
+
+.main-text{
+	padding:40% 0;
+	font-size: 25px;
+	color: white;
+}
