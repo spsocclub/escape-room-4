@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title>room4</title>
-	<script src='https://code.jquery.com/jquery-1.12.4.min.js' 
-       integrity='sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ' 
+	<script src='https://code.jquery.com/jquery-1.12.4.min.js'
+       integrity='sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ'
        crossorigin='anonymous'>
 </script>
 <script src='dist/jquery-pincode-autotab.js'></script>
@@ -14,7 +14,7 @@
 </head>
 <body id='body'>
 	<div id='container-1'>
-		<form onsubmit='submitCode()'>
+		<form action="javascript:void(0)" onsubmit='submitCode()'>
 			<div class='main-text'>ENTER THE CODE</div>
 			<div class='myPinCode'>
 			  <input type='tel' maxlength='1' class='pin' id='code-input-1'>
@@ -22,7 +22,7 @@
 			  <input type='tel' maxlength='1' class='pin' id='code-input-3'>
 			  <input type='tel' maxlength='1' class='pin' id='code-input-4'>
 			</div>
-			<button id='submit' onclick='submitCode()' style='visibility: hidden;'></button>
+			<button id='submit' onclick='submitCode()'>ENTER</button>
 		</form>
 	</div>
 
